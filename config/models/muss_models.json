@@ -1,0 +1,76 @@
+{
+  "global": {
+    "models_path": "muss/experiments",
+    "data_path": "muss/resources/datasets",
+    "root": "muss",
+    "easse_bin": ".local/bin/easse",
+    "coherence_bin": "DiscourseCoherence/main.py",
+    "coherence_model": "runs/parseq_yahoo_official/parseq_yahoo_official_best",
+    "glove_path": "DiscourseCoherence/data/GloVe/glove.840B.300d.txt",
+    "d_sari_bin": "muss/resources/datasets/d_wikipedia/Document-level-text-simplification/D_SARI.py"
+  },
+  "models": {
+    "en_mined": "en_mined/model.pt",
+    "en_mined_cochrane_last": "fairseq/local_1637146329604/checkpoints/checkpoint_last.pt",
+    "en_wikilarge_cochrane_best": "fairseq/local_1637277213149/checkpoints/checkpoint_best.pt",
+    "en_wikilarge_cochrane_last": "fairseq/local_1637277213149/checkpoints/checkpoint_last.pt",
+    "en_wikilarge_mined_d_wiki_best": "fairseq/local_1641838204075/checkpoints/checkpoint_best.pt",
+    "en_wikilarge_mined_d_wiki_last": "fairseq/local_1641838204075/checkpoints/checkpoint_last.pt",
+    "en_mined_d_wiki_last": "fairseq/local_1641860569514/checkpoints/checkpoint_last.pt",
+    "en_mined_d_wiki_best": "fairseq/local_1641860569514/checkpoints/checkpoint_best.pt",
+    "en_mined_d_wiki_last_2": "fairseq/local_1641912223364/checkpoints/checkpoint_last.pt",
+    "en_mined_d_wiki_best_2": "fairseq/local_1641912223364/checkpoints/checkpoint_best.pt",
+    "en_mined_cochrane_d_wiki_last": "fairseq/local_1642715609234/checkpoints/checkpoint_last.pt",
+    "en_mined_cochrane_d_wiki_best": "fairseq/local_1642715609234/checkpoints/checkpoint_best.pt"
+  },
+  "alias": {
+    "en_mined": "Mined",
+    "en_wikilarge_mined": "Mined+WL",
+    "en_mined_cochrane_best": "Mined+Cochrane(best)",
+    "en_mined_cochrane_last": "Mined+Cochrane(last)",
+    "en_wikilarge_cochrane_best": "Mined+WL+Cochrane(best)",
+    "en_wikilarge_cochrane_last": "Mined+WL+Cochrane(last)",
+    "en_wikilarge_mined_d_wiki_best": "Mined+WL+dWiki(best)",
+    "en_wikilarge_mined_d_wiki_last": "Mined+WL+dWiki(last)",
+    "en_mined_d_wiki_last": "Mined+dWiki(last)",
+    "en_mined_d_wiki_best": "Mined+dWiki(best)",
+    "en_mined_d_wiki_last_2": "Mined+dWiki2(last)",
+    "en_mined_d_wiki_best_2": "Mined+dWiki2(best)",
+    "en_mined_cochrane_d_wiki_last": "Mined+Cochrane+dWiki(last)",
+    "en_mined_cochrane_d_wiki_best": "Mined+Cochrane+dWiki(best)"
+  },
+  "data": {
+    "d_wikipedia": {
+      "test": [
+        "test.complex",
+        "test.simple.clean"
+      ],
+      "valid": [
+        "valid.complex",
+        "valid.simple.clean"
+      ]
+    },
+    "cochrane": {
+      "test": [
+        "test.complex",
+        "test.simple"
+      ],
+      "valid": [
+        "valid.complex",
+        "valid.simple"
+      ]
+    },
+    "osec_short_article": {
+      "test": [
+        "test.complex",
+        "test.simple"
+      ]
+    },
+    "osec_all": {
+      "test": [
+        "test.complex",
+        "test.simple"
+      ]
+    }
+  }
+}
