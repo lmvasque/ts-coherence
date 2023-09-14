@@ -87,7 +87,7 @@ If you use our results in your research, please cite our work: [Document-level T
 
 
 ```
-@inproceedings{vasquez-rodriguez-etal-2023-coherence,
+@inproceedings{vasquez-rodriguez-etal-2023-document,
     title = "Document-level Text Simplification with Coherence Evaluation",
     author = "V{\'a}squez-Rodr{\'\i}guez, Laura  and
       Shardlow, Matthew  and
@@ -97,6 +97,5 @@ If you use our results in your research, please cite our work: [Document-level T
     month = sept,
     year = "2023",
     address = "Varna, Bulgaria",
-    url = "https://tsar-workshop.github.io/program/papers/vasquez-rodriguez-etal-2023-document.pdf",
-    pages = "876--882",
+    url = "https://tsar-workshop.github.io/program/papers/vasquez-rodriguez-etal-2023-document.pdf"
 }
